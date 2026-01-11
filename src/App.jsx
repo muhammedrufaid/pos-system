@@ -17,7 +17,6 @@ function App() {
           <Route path="/orders" element={<Orders />} />
         </Routes>
       </Router>
-      <h1 className='text-red-900'>Hello World</h1>
     </>
   )
 }
