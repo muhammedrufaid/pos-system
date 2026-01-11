@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import { Auth, Home, Orders } from './pages'
 import Headers from './components/shared/Headers'
+import Tables from './pages/Tables'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/auth" element={<Auth />} />
           <Route path="/orders" element={<Orders />} />
+          <Route path="/tables" element={<Tables />} />
         </Routes>
       </Router>
     </>
