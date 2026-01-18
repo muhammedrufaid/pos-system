@@ -21,7 +21,7 @@ const Tables = () => {
             </div>
             <div className='grid grid-cols-5 gap-5 items-center p-10  overflow-y-scroll h-[calc(100vh-13rem)] scrollbar-hide'>
                 {tables.map((table) => {
-                    return (<TableCard key={table.id} name={table.name} status={table.status} initials={table.initial} />);
+                    return (<TableCard key={table.id} id={table.id} name={table.name} status={table.status} initials={table.initial} seats={table.seats}/>);
                 })}
             </div>
             <BottomNav />
